@@ -1,0 +1,87 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.columsleft{
+   background-color: rgb(255, 136, 0);
+   color: white;
+}
+.columsleft .imgcolumsleft{
+   margin: 0 auto;
+   width: 60px;
+   height: max-content;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.columsleftext{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.adminoperations{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2px;
+}
+.adminoperations .btn{
+  width: 60px;
+  color: white!important;
+}
+.adminoperations .btn.btnorange{
+  margin-left: 3px;
+  background-color: #0d6efd;
+}
+.adminoperations .btn.btnred{
+  margin-left: 3px;
+  background-color: rgb(247, 88, 88);
+}
+.title-fix{
+  padding-top: 15px;
+}
+ .title-fix b {
+  text-transform: uppercase;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  padding: 8px 12px;
+  background: white;
+}
+.mb-4:hover, .btn:hover{
+  opacity: 0.75;
+}
+
+.table-responsive {
+  overflow-x: auto!important; /* Cho phép cuộn ngang */
+}
+.table-responsive .table {
+  min-width: 2000px; /* Đặt chiều rộng tối thiểu cho bảng */
+  margin-right: 50px;
+}
+.table-responsive td p{
+  margin-bottom: -2px;
+}
+
+.stat-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+.stat-box i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
